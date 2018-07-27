@@ -1,5 +1,5 @@
 applications:
-- name: samplespring
+- name: samplespringapp
   path: target/HelloWorld-1.0.jar
   host: samplespringapp-service
   services:
