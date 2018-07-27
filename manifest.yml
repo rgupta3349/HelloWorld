@@ -1,6 +1,6 @@
 applications:
-- name: springhelloworld 
+- name: samplespring
   path: target/HelloWorld-1.0.jar
-  host: springhelloworld-service
+  host: samplespringapp-service
   services:
   - eureka
