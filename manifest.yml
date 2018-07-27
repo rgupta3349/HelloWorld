@@ -1,4 +1,6 @@
 applications:
 - name: springhelloworld 
   path: target/HelloWorld-1.0.jar
-  domain: cfapps.io
+  host: springhelloworld-service
+  services:
+  - eureka
